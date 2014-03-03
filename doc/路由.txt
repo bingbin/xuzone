@@ -1,0 +1,20 @@
+{url cms/item/list/act a=b c=d e=f}
+{url /item/list/ a=b c=d e=f}
+{url /item/list/}
+
+¶¯Ì¬£º
+www.domain.com/index.php?sys=sys&mod=mod&con=con&act=act&k=v&arr=a|b|c
+
+www.domain.com/index.php?r=sys/mod/con/act&k=v&arr=a|b|c
+
+www.domain.com/index.php?r=sys-mod-con-act-k-v-arr-a|b|c
+
+Î±¾²Ì¬
+www.domain.com/sys/mod/con/act/page/10/arr/a|b|c/
+
+www.domain.com/sys-mod-con-act-page-10-arr-a|b|c
+
+¾²Ì¬
+www.domain.com/sys/mod/con/act-page.html
+
+

@@ -1,0 +1,16 @@
+
+核心框架 framework:	提供基础功能  数据库db，缓存cache，文件处理file，
+			辅助函数helper, 过滤器filter, 
+
+
+模板引擎 smarty3
+
+$this->assign();
+$this->display('a/b/c/index.html');
+
+数据调用
+
+{label mod=article ids=[1,2,3]}
+
+注册处理插件
+$smarty->registerPlugin('function','label',array('Label','show'));
