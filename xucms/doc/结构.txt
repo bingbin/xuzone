@@ -1,0 +1,18 @@
+
+
+index.php 唯一入口
+admin.php 管理员入口
+user.php  会员入口
+admin 管理目录
+api   对外接口
+assets 常用资源
+data   缓存目录
+user  会员中心
+skin
+template
+themes
+framework 框架
+	├─Bin.php 静态对象
+	├─base.php
+	base
+	
