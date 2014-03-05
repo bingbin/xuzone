@@ -2,10 +2,9 @@
 /**
  * Ç°Ì¨Ê×Ò³
  * @author haibin <bingbin1321@163.com>
- * @version $Id: index.php 1 2014-01-05 17:21:49Z haibin $
+ * @version $Id: index.php 6 2014-03-05 16:51:42Z haibin $
  */
-$vii=str_replace('\\', '/', dirname(__FILE__).'/framework/vii.php');
-$config=dirname(__FILE__).'/data/config.php';
-require_once($vii);
+require(__DIR__.'/framework/vii.php');
+$config=require dirname(__FILE__).'/data/config_main.php';
 Vii::createWebApplication($config)->run(); 
 ?>
