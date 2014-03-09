@@ -1,20 +1,20 @@
 <?php
 /**
- * ViiBase class file.
+ * Base class file.
  *
  * @author haibin <bingbin1321@163.com>
  * @version $Id: base.php 4 2014-03-02 15:38:28Z haibin $
  */
+namespace kit;
  
+defined('KIT_PATH') or define('KIT_PATH',dirname(__FILE__));
  
-defined('VII_PATH') or define('VII_PATH',dirname(__FILE__));
- 
-class ViiBase{
+class Base{
  
 	private static $_imports=array();	
 	private static $classMap=array();
 	private static $_includePaths;	
-	private static $_aliases=array('system'=>VII_PATH); // alias => path
+	private static $_aliases=array('system'=>KIT_PATH); // alias => path
 	
 	public static function getVersion()
 	{

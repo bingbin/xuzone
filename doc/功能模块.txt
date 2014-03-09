@@ -1,0 +1,22 @@
+内容系统 content
+		栏目管理 category,
+		内容管理 item
+		模型管理 model
+		统计 static
+		
+站群系统
+		站群管理
+		服务器端 server
+		客户端	client
+		内容管理 content
+		接口 api
+		
+产品系统
+		分类 category
+		模型管理 model
+		商品 product
+		评论 comment
+		
+		
+		
+		

@@ -39,4 +39,9 @@ class urlManager{
 		
 		return $url;
 	}
+	
+	public function parseUrl($request){
+	
+	
+	}
 }
