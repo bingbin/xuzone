@@ -1,8 +1,34 @@
-内容系统 content
-		栏目管理 category,
-		内容管理 item
+系统部分system
+
+内容系统 content  主要是文章article, 图片photo,
+		栏目管理 category,	栏目不绑定模型？
 		模型管理 model
+		内容管理 item
 		统计 static
+		
+产品系统 product	类商城
+		分类 category
+		模型管理 model
+		商品 goods
+		评论 comment
+		订单 order
+
+问答系统 ask
+		分类 category
+		问题 question
+		答案 answer
+		会员管理， 专家、等级，是个系统独立的
+		
+办事系统 work
+		分类 category
+		部门 parment
+		工作流 precess
+		内容 item
+		
+文库系统
+		分类 category
+		文档 doc
+		会员管理，等级、积分，系统独立
 		
 站群系统
 		站群管理
@@ -11,11 +37,35 @@
 		内容管理 content
 		接口 api
 		
-产品系统
-		分类 category
-		模型管理 model
-		商品 product
-		评论 comment
+		
+模块部分 module
+	会员管理	user		会员属一角色，一会员组，多权限组
+	表单模块	form
+	广告模块	ad
+	上传模块	upload
+	友情链接	friendlink
+	留言本		guestbook	
+	意见征集	idea	
+	问卷调查	Survey
+	投票		vote
+	站内信		message
+	采集		spider
+	专题		special
+	客服		service
+	数据库		dbm	
+	独立页		page
+	全站搜索	search
+	统计		static
+	报刊		paper
+	
+
+插件plugin
+	qq登录
+	
+	
+		
+		
+
 		
 		
 		
